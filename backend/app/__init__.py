@@ -20,8 +20,6 @@ def create_app(config_name: str | None = None) -> Flask:
     socketio.init_app(
         app,
         cors_allowed_origins=app.config["CORS_ORIGINS"],
-        # Sửa "eventlet" thành "gevent" ở dòng dưới
-        async_mode=app.config.get("SOCKETIO_ASYNC_MODE", "gevent"),
     )
 
     app.register_blueprint(auth_bp, url_prefix="/auth")
