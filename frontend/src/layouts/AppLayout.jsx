@@ -35,14 +35,14 @@ export function AppLayout({ children }) {
           {/* Logo */}
           <div className="min-w-0">
             <div className="font-display text-lg sm:text-xl font-bold tracking-tight text-text truncate">
-              QueueStream
+              Đợp Cùng ThangMicro
             </div>
 
             <div className="
               hidden sm:block
               text-xs uppercase tracking-[0.24em] text-muted
             ">
-              Điều phối hàng chờ trực tiếp
+              Giành Slot đeeeeeeeeeee
             </div>
           </div>
 

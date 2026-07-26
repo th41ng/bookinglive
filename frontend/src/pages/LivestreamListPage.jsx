@@ -27,7 +27,7 @@ export default function LivestreamListPage() {
       <SectionHeader
         eyebrow="Khám phá"
         title="Livestream đang mở"
-        description="Chọn một phiên, tham gia hàng chờ và đợi đến lượt chơi của bạn."
+        description="Chọn một phiên, tham gia hàng chờ và đợi đến lượt chơi của bạn. (Nữa tui thêm chức năng để thông báo tới email của mấy ní nữa để khỏi phải ngồi canh nha)"
       />
       <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         {livestreams.map((livestream) => (

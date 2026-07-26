@@ -19,7 +19,7 @@ export default function ViewerDashboardPage() {
       <SectionHeader
         eyebrow="Bảng điều khiển người xem"
         title={`Xin chào, ${user?.display_name}`}
-        description="Dùng trang này để xem các phiên đang mở và chuẩn bị hồ sơ để tham gia hàng chờ."
+        description="Nhớ nhập tên cho đúng trong game nha mấy ní, đặt tên CAC DAI LON là tôi giận á nhe"
       />
       <div className="grid gap-4 lg:grid-cols-[0.85fr_1.15fr]">
         <Card>

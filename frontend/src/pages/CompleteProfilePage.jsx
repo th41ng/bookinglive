@@ -33,7 +33,7 @@ export default function CompleteProfilePage() {
       <SectionHeader
         eyebrow="Thiết lập hồ sơ"
         title="Hoàn thiện tài khoản"
-        description="Cần có thông tin trong game trước khi bạn có thể tham gia hàng chờ hoặc quản lý livestream."
+        description="Nhập tên với id cho đàng hoàng nha mấy ní, đặt tên CAC DAI LON là tôi giận á nhe"
       />
       <Card>
         <CardBody className="space-y-5">
@@ -43,7 +43,7 @@ export default function CompleteProfilePage() {
           </div>
           <form className="space-y-4" onSubmit={handleSubmit}>
             <Input label="Tên trong game" value={form.ingame_name} onChange={(e) => setForm((current) => ({ ...current, ingame_name: e.target.value }))} />
-            <Input label="UID game" value={form.game_uid} onChange={(e) => setForm((current) => ({ ...current, game_uid: e.target.value }))} />
+            <Input label="UID game (kệ mẹ nó khỏi nhập cũng được, tôi để cho đẹp" value={form.game_uid} onChange={(e) => setForm((current) => ({ ...current, game_uid: e.target.value }))} />
             {error ? <div className="rounded-xl border border-danger/30 bg-danger/10 px-4 py-3 text-sm text-danger">{error}</div> : null}
             <div className="flex justify-end">
               <Button type="submit" disabled={saving}>{saving ? 'Đang lưu...' : 'Lưu hồ sơ'}</Button>
